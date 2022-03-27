@@ -1,0 +1,37 @@
+.. title:: star.ty
+
+.. image:: _static/banner.png
+   :target: `stargaze`_
+
+The cutest pixel creatures on cosmos! Live on Stargaze!
+=======================================================
+
+Startys are 1,111 nFTs drawn in pixel style, launched on Stargaze Network. They all
+contain different rarities, according to their features. Each starty is unique, and thus
+only minted once.
+
+.. note::
+
+   This website is still in alpha and content is subject to change!
+
+Check out each individual starty
+--------------------------------
+
+.. raw:: html
+
+   <div>
+       <a class="sliderOutput" id="startyLabel">
+       </a>
+       <input class="sliderInput" type="range" min="1" max="1111" value="0" id="startySlider">
+       <br/>
+       <a id="startyImageLink">
+            <img id="startyImage"></img>
+       </a>
+       <script src="_static/starty_slider.js"></script>
+   </div>
+
+
+.. _stargaze: https://app.stargaze.zone/launchpad/stars1fqsqgjlurc7z2sntulfa0f9alk2ke5npyxrze9deq7lujas7m3ss7vq2fe
+
+.. toctree::
+   :hidden:
